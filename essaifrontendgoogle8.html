@@ -1,0 +1,214 @@
+<html lang="en">
+  <!DOCTYPE html>
+  <head>
+      <title>Google front end</title>
+      <style>
+          h1 {
+              color: blue;
+              text-align: center;
+          }
+          P { text-align: center }
+      
+                      
+             button {
+                background-color:white;
+                color:gray;
+                width: 150px;
+                height: 30px;
+                font-size: 14px;
+                border-radius: 12px;
+                border: thin;
+                text-align: center;
+               
+              
+            }
+
+            button:hover {
+                background-color: rgb(212, 207, 207);
+                color:dimgray;
+                border-style: dotted 1 px;
+                border-end-end-radius: 3px;
+            }
+            
+        .entete{
+                position:absolute;
+                top: 10px;
+                bottom: 20px;
+                right: 0px;
+                padding:15px;
+                width: 300px;
+                display:inline;
+                float: right;
+        }
+               
+            .footeright{
+                position:absolute;
+                bottom:5px;
+                right:10px;
+            }
+            .footerleft{
+                position:absolute;
+                bottom:5px;
+                left:10px;
+            }
+            .logo{
+                margin-top: 120px;
+            }
+           a:link{
+               text-decoration:none;
+               color:blue;
+
+           }
+           a:active{
+               color:blue;
+               text-decoration:none;
+           }
+           a:hover {
+               text-decoration: underline;
+               color:blue;
+              
+           }
+           a:visited{
+               text-decoration:underline;
+               color:red;
+           }
+           .textbox{
+              border-style:none;
+              border-radius:15px;
+              height:30px;
+           }
+             .buttonlogin{
+               background-color:blue;
+               color:white;
+               width: 1px;
+               height: 1px;
+           }
+           .connect{
+            background-color: blue;
+            color:white;
+            size:16px;
+            border-end-end-radius: 100px;
+           }
+          
+           ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(241, 235, 235);
+}
+    li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: blue;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color:blue;
+  color:white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color: #f9f9f9;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(247, 244, 244, 0.2);  
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:-moz-inline-box;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #ccc8c8;
+color:blue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ </style>
+  </head>
+  <body >
+    <ul>
+  <li><a href="https://www.gmail.com/">Gmail</a></li>
+  <li><a href="https://www.google.com/imghp">Images</a></li>
+  <li><a href="#">services</a></li>
+  <li class="dropdown">
+    <button class="dropbtn">Apps</button>
+   <div class="dropdown-content">
+    <a href="https://www.google.com/">Account</a>
+    <a href="https://www.amazon.com/">search</a>
+    <a href="https://www.facebook.com/">Map</a>
+    <a href="https://www.google.com/">Youtube</a>
+    <a href="https://www.amazon.com/">Play</a>
+    <a href="https://www.facebook.com/">News</a>
+    <a href="https://www.google.com/">Gmail</a>
+    <a href="https://www.amazon.com/">Meet</a>
+    <a href="https://www.facebook.com/">Contacts</a>
+    <a href="https://www.google.com/">Drive</a>
+    <a href="https://www.amazon.com/">Calendar</a>
+    <a href="https://www.facebook.com/">Translate</a>
+    <a href="https://www.facebook.com/">Photos</a>
+    <a href="https://www.amazon.com/">Duo </a>
+    <a href="https://www.facebook.com/">Shopping</a>
+    <a href="https://www.google.com/">Docs</a>
+    <a href="https://www.amazon.com/">Sheets</a>
+    <a href="https://www.facebook.com/">Slide</a>
+    <a href="https://www.google.com/">Books</a>
+    <a href="https://www.amazon.com/">Blogger</a>
+    <a href="https://www.facebook.com/">Hangout</a>
+   </div>
+   </li>
+   <button class="connect">Log In</button>
+   </div>
+</ul>
+      
+      <p class="logo"> <img src="c:/users/main/pictures/googlelogo.jpg" alt="logo" width="300"></p>
+         
+      <form>
+          <div style="text-align: center" class="textbox">
+        <input type="text"  placeholder="Google Search" name="Recherche" size="70px;" ></div>
+    
+        <div style="text-align: center" class="button">
+            <button>Search Google</button>
+            <button>I'm Feeling Lucky </button>
+            <br>
+            Google Offered in:
+               <a href=#>French </a> &nbsp;
+               <a href=#>Portuguese</a>
+            </div>
+            
+      </form>
+      <div style="text-align:bottom" class="footeright">
+        <a href="https://www.google.com/">Privacy</a> &nbsp;
+        <a href="https://www.google.com/">Terms</a> &nbsp;
+        <a href="https://www.google.com/">Settings</a> &nbsp;
+        <button>Personnalize</button> 
+      </div>
+      <div style="text-align:bottom" class="footerleft">
+        <a href="https://www.google.com/">Advertising</a> &nbsp;
+        <a href="https://www.google.com/">Business</a> &nbsp;
+        <a href="https://www.google.com/">About</a> &nbsp;
+        <a href="https://www.google.com/">How search works</a> &nbsp;
+      </div>
+      
+  </body>
+  </html>
+
+  
